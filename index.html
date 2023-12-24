@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- tailwind link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header class="bg-white p-4 shadow-md">
+      <div class="container mx-auto flex items-center justify-between">
+        <!-- Left Side (Logo) -->
+        <div class="flex items-center">
+          <img src="/images/logo.png" alt="Logo" class="w-24 h-10 mr-2" />
+        </div>
+
+        <!-- Right Side (Navigation Links) -->
+        <nav class="flex items-center space-x-4">
+          <a href="#" class="text-gray-700 hover:text-gray-900">Home</a>
+          <a href="#" class="text-gray-700 hover:text-gray-900">Shop</a>
+          <a href="#" class="text-gray-700 hover:text-gray-900">Blog</a>
+          <a href="#" class="text-gray-700 hover:text-gray-900">About</a>
+          <img class="h-10" src="/images/shopping-cart.png" alt="" />
+        </nav>
+      </div>
+    </header>
+
+    <!-- banner-section -->
+
+    <section>
+      <div class="relative flex">
+        <div class="">
+          <img src="/images/hero4.png" alt="" class="" />
+          <!-- Image with 100% width and auto height -->
+        </div>
+        <div class="absolute inset-0 flex items-center p-8">
+          <!-- Absolute positioning for text content -->
+          <div>
+            <h1 class="text-4xl mb-4">Trade-in-offer</h1>
+            <h1 class="text-5xl mb-4 font-bold text-red-500">
+              Super value deals <br /><span class="font-bold text-green-500">
+                On all products</span
+              >
+            </h1>
+            <small class="block mt-4 text-sm"
+              >Save more with coupons & get up to 70% off!</small
+            >
+            <br />
+            <button
+              class="btn bg-white text-black py-2 px-4 rounded-full inline-block mt-4"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end -->
+
+    <!-- card-section -->
+
+    <section class="mt-20 grid lg:grid-cols-6 gap-16 mb-5">
+      <div
+        class="max-w-xs mx-auto bg-white shadow-md rounded-lg overflow-hidden border card-1"
+      >
+        <img
+          class="h-36 mx-auto"
+          src="/images/features/f1.png"
+          alt="Card Image"
+        />
+        <div class="px-4 py-2">
+          <h3 class="text-lg font-semibold mb-1 text-center bg-green-100">
+            Free shipping
+          </h3>
+        </div>
+      </div>
+
+      <div
+        class="max-w-xs mx-auto bg-white shadow-md rounded-lg overflow-hidden border"
+      >
+        <img
+          class="h-36 mx-auto"
+          src="/images/features/f2.png"
+          alt="Card Image"
+        />
+        <div class="px-4 py-2">
+          <h3 class="text-lg font-semibold mb-1 text-center bg-green-100">
+            online order
+          </h3>
+        </div>
+      </div>
+
+      <div
+        class="max-w-xs mx-auto bg-white shadow-md rounded-lg overflow-hidden border"
+      >
+        <img
+          class="h-36 mx-auto"
+          src="/images/features/f3.png"
+          alt="Card Image"
+        />
+        <div class="px-4 py-2">
+          <h3 class="text-lg font-semibold mb-1 text-center bg-green-100">
+            save money
+          </h3>
+        </div>
+      </div>
+
+      <div
+        class="max-w-xs mx-auto bg-white shadow-md rounded-lg overflow-hidden border"
+      >
+        <img
+          class="h-36 mx-auto"
+          src="/images/features/f4.png"
+          alt="Card Image"
+        />
+        <div class="px-4 py-2">
+          <h3 class="text-lg font-semibold mb-1 text-center bg-green-100">
+            promotions
+          </h3>
+        </div>
+      </div>
+      <div
+        class="max-w-xs mx-auto bg-white shadow-md rounded-lg overflow-hidden border"
+      >
+        <img
+          class="h-36 mx-auto"
+          src="/images/features/f5.png"
+          alt="Card Image"
+        />
+        <div class="px-4 py-2">
+          <h3 class="text-lg font-semibold mb-1 text-center bg-green-100">
+            happy sell
+          </h3>
+        </div>
+      </div>
+      <div
+        class="max-w-xs mx-auto bg-white shadow-md rounded-lg overflow-hidden border"
+      >
+        <img
+          class="h-36 mx-auto"
+          src="/images/features/f6.png"
+          alt="Card Image"
+        />
+        <div class="px-4 py-2">
+          <h3 class="text-lg font-semibold mb-1 text-center bg-green-100">
+            24/7 support
+          </h3>
+        </div>
+      </div>
+    </section>
+    <!-- card-end -->
+
+    <!-- feature-section -->
+    <section class="mt-10">
+      <div class="justify-center my-3">
+        <h1 class="text-center text-5xl text-black font-bold">
+          Featured Products
+        </h1>
+        <p class="text-center mt-3">Summer Collection New Morden Design</p>
+      </div>
+
+      <div class="grid lg:grid-cols-4 gap-10">
+        <!-- card-1 -->
+        <div>
+          <div class="card w-72 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img
+                src="/images/products/f1.jpg"
+                alt="Shoes"
+                class="rounded-xl w-56"
+              />
+            </figure>
+            <div class="card-body">
+              <small class="">adidas</small>
+              <p class="font-bold">Cartoon Astronaut T-Shirts</p>
+              <div class="rating rating-xs">
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+              <div class="card-actions justify-between">
+                <h1 class="font-bold">$78</h1>
+                <img class="h-7" src="/images/shopping-cart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card-1 end -->
+        <!-- card-2 -->
+        <div>
+          <div class="card w-72 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img
+                src="/images/products/f2.jpg"
+                alt="Shoes"
+                class="rounded-xl w-56"
+              />
+            </figure>
+            <div class="card-body">
+              <small class="">adidas</small>
+              <p class="font-bold">Cartoon Astronaut T-Shirts</p>
+              <div class="rating rating-xs">
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+              <div class="card-actions justify-between">
+                <h1 class="font-bold">$78</h1>
+                <img class="h-7" src="/images/shopping-cart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card-2 end -->
+        <!-- card-3 -->
+        <div>
+          <div class="card w-72 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img
+                src="/images/products/f3.jpg"
+                alt="Shoes"
+                class="rounded-xl w-56"
+              />
+            </figure>
+            <div class="card-body">
+              <small class="">adidas</small>
+              <p class="font-bold">Cartoon Astronaut T-Shirts</p>
+              <div class="rating rating-xs">
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+              <div class="card-actions justify-between">
+                <h1 class="font-bold">$78</h1>
+                <img class="h-7" src="/images/shopping-cart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card-3 end -->
+        <!-- card-4 -->
+        <div>
+          <div class="card w-72 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img
+                src="/images/products/f4.jpg"
+                alt="Shoes"
+                class="rounded-xl w-56"
+              />
+            </figure>
+            <div class="card-body">
+              <small class="">adidas</small>
+              <p class="font-bold">Cartoon Astronaut T-Shirts</p>
+              <div class="rating rating-xs">
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+              <div class="card-actions justify-between">
+                <h1 class="font-bold">$78</h1>
+                <img class="h-7" src="/images/shopping-cart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card-4 end -->
+        <!-- card-5 -->
+        <div>
+          <div class="card w-72 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img
+                src="/images/products/f5.jpg"
+                alt="Shoes"
+                class="rounded-xl w-56"
+              />
+            </figure>
+            <div class="card-body">
+              <small class="">adidas</small>
+              <p class="font-bold">Cartoon Astronaut T-Shirts</p>
+              <div class="rating rating-xs">
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+              <div class="card-actions justify-between">
+                <h1 class="font-bold">$78</h1>
+                <img class="h-7" src="/images/shopping-cart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card-5 end -->
+        <!-- card-6 -->
+        <div>
+          <div class="card w-72 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img
+                src="/images/products/f6.jpg"
+                alt="Shoes"
+                class="rounded-xl w-56"
+              />
+            </figure>
+            <div class="card-body">
+              <small class="">adidas</small>
+              <p class="font-bold">Cartoon Astronaut T-Shirts</p>
+              <div class="rating rating-xs">
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+              <div class="card-actions justify-between">
+                <h1 class="font-bold">$78</h1>
+                <img class="h-7" src="/images/shopping-cart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card-6 end -->
+        <!-- card-1 -->
+        <div>
+          <div class="card w-72 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img
+                src="/images/products/f7.jpg"
+                alt="Shoes"
+                class="rounded-xl w-56"
+              />
+            </figure>
+            <div class="card-body">
+              <small class="">adidas</small>
+              <p class="font-bold">Cartoon Astronaut T-Shirts</p>
+              <div class="rating rating-xs">
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+              <div class="card-actions justify-between">
+                <h1 class="font-bold">$78</h1>
+                <img class="h-7" src="/images/shopping-cart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card-7 end -->
+        <!-- card-8 -->
+        <div>
+          <div class="card w-72 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img
+                src="/images/products/f8.jpg"
+                alt="Shoes"
+                class="rounded-xl w-56"
+              />
+            </figure>
+            <div class="card-body">
+              <small class="">adidas</small>
+              <p class="font-bold">Cartoon Astronaut T-Shirts</p>
+              <div class="rating rating-xs">
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+              <div class="card-actions justify-between">
+                <h1 class="font-bold">$78</h1>
+                <img class="h-7" src="/images/shopping-cart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card-8 end -->
+      </div>
+    </section>
+
+    <!-- end -->
+
+    <!-- services-section -->
+    <section class="mt-10">
+      <div class="relative">
+        <div class="">
+          <img src="/images/banner/b2.jpg" alt="" class="" />
+          <!-- Image with 100% width and auto height -->
+        </div>
+        <div class="absolute inset-0 flex items-center justify-center p-8">
+          <!-- Absolute positioning for text content -->
+          <div class="mx-auto text-center">
+            <h1 class="text-4xl mb-4 text-white">Trade-in-offer</h1>
+            <h1 class="text-5xl mb-4 font-bold text-red-500">
+              Repair Services
+            </h1>
+            <br />
+            <button
+              class="bg-white text-black py-2 px-4 rounded-full inline-block mt-4"
+            >
+              Explore More
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end -->
+
+    <!-- New Arrivals-section -->
+
+    <section class="mt-10">
+      <div class="justify-center my-3">
+        <h1 class="text-center text-5xl text-black font-bold">New Arrivals</h1>
+        <p class="text-center mt-3">Summer Collection New Morden Design</p>
+      </div>
+
+      <div class="grid lg:grid-cols-4 gap-10">
+        <!-- card-1 -->
+        <div>
+          <div class="card w-72 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img
+                src="/images/products/n1.jpg"
+                alt="Shoes"
+                class="rounded-xl w-56"
+              />
+            </figure>
+            <div class="card-body">
+              <small class="">adidas</small>
+              <p class="font-bold">Cartoon Astronaut T-Shirts</p>
+              <div class="rating rating-xs">
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+              <div class="card-actions justify-between">
+                <h1 class="font-bold">$78</h1>
+                <img class="h-7" src="/images/shopping-cart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card-1 end -->
+        <!-- card-2 -->
+        <div>
+          <div class="card w-72 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img
+                src="/images/products/n2.jpg"
+                alt="Shoes"
+                class="rounded-xl w-56"
+              />
+            </figure>
+            <div class="card-body">
+              <small class="">adidas</small>
+              <p class="font-bold">Cartoon Astronaut T-Shirts</p>
+              <div class="rating rating-xs">
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+              <div class="card-actions justify-between">
+                <h1 class="font-bold">$78</h1>
+                <img class="h-7" src="/images/shopping-cart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card-2 end -->
+        <!-- card-3 -->
+        <div>
+          <div class="card w-72 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img
+                src="/images/products/n4.jpg"
+                alt="Shoes"
+                class="rounded-xl w-56"
+              />
+            </figure>
+            <div class="card-body">
+              <small class="">adidas</small>
+              <p class="font-bold">Cartoon Astronaut T-Shirts</p>
+              <div class="rating rating-xs">
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+              <div class="card-actions justify-between">
+                <h1 class="font-bold">$78</h1>
+                <img class="h-7" src="/images/shopping-cart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card-3 end -->
+        <!-- card-4 -->
+        <div>
+          <div class="card w-72 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img
+                src="/images/products/n5.jpg"
+                alt="Shoes"
+                class="rounded-xl w-56"
+              />
+            </figure>
+            <div class="card-body">
+              <small class="">adidas</small>
+              <p class="font-bold">Cartoon Astronaut T-Shirts</p>
+              <div class="rating rating-xs">
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+              <div class="card-actions justify-between">
+                <h1 class="font-bold">$78</h1>
+                <img class="h-7" src="/images/shopping-cart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card-4 end -->
+        <!-- card-5 -->
+        <div>
+          <div class="card w-72 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img
+                src="/images/products/n5.jpg"
+                alt="Shoes"
+                class="rounded-xl w-56"
+              />
+            </figure>
+            <div class="card-body">
+              <small class="">adidas</small>
+              <p class="font-bold">Cartoon Astronaut T-Shirts</p>
+              <div class="rating rating-xs">
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+              <div class="card-actions justify-between">
+                <h1 class="font-bold">$78</h1>
+                <img class="h-7" src="/images/shopping-cart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card-5 end -->
+        <!-- card-6 -->
+        <div>
+          <div class="card w-72 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img
+                src="/images/products/n6.jpg"
+                alt="Shoes"
+                class="rounded-xl w-56"
+              />
+            </figure>
+            <div class="card-body">
+              <small class="">adidas</small>
+              <p class="font-bold">Cartoon Astronaut T-Shirts</p>
+              <div class="rating rating-xs">
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+              <div class="card-actions justify-between">
+                <h1 class="font-bold">$78</h1>
+                <img class="h-7" src="/images/shopping-cart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card-6 end -->
+        <!-- card-1 -->
+        <div>
+          <div class="card w-72 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img
+                src="/images/products/n7.jpg"
+                alt="Shoes"
+                class="rounded-xl w-56"
+              />
+            </figure>
+            <div class="card-body">
+              <small class="">adidas</small>
+              <p class="font-bold">Cartoon Astronaut T-Shirts</p>
+              <div class="rating rating-xs">
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+              <div class="card-actions justify-between">
+                <h1 class="font-bold">$78</h1>
+                <img class="h-7" src="/images/shopping-cart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card-7 end -->
+        <!-- card-8 -->
+        <div>
+          <div class="card w-72 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img
+                src="/images/products/n8.jpg"
+                alt="Shoes"
+                class="rounded-xl w-56"
+              />
+            </figure>
+            <div class="card-body">
+              <small class="">adidas</small>
+              <p class="font-bold">Cartoon Astronaut T-Shirts</p>
+              <div class="rating rating-xs">
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-5"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+              <div class="card-actions justify-between">
+                <h1 class="font-bold">$78</h1>
+                <img class="h-7" src="/images/shopping-cart.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card-8 end -->
+      </div>
+    </section>
+
+    <!-- upcoming -->
+    <section class="mt-10 grid grid-cols-2">
+      <div
+        class="hero w-[600px] h-80"
+        style="background-image: url(/images/banner/b17.jpg)"
+      >
+        <div class="hero-overlay bg-opacity-5"></div>
+        <div class="hero-content text-neutral-content">
+          <div class="max-w-md  mr-24">
+            <h1 class="mb-5 text-3xl font-bold text-white">crazy deals</h1>
+            <h1 class="text-4xl text-white">buy 1 get 1 free</h1>
+            <p class="mb-5">
+              The best classic dress is on sale at coro
+            </p>
+             <button
+              class="bg-white text-black py-2 px-4  inline-block mt-4"
+            >
+              Explore More
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="hero w-[600px] h-80"
+        style="background-image: url(/images/banner/b16.jpg)"
+      >
+        <div class="hero-overlay bg-opacity-5"></div>
+        <div class="hero-content text-neutral-content">
+          <div class="max-w-md  mr-24">
+            <h1 class="mb-5 text-3xl font-bold text-white">crazy deals</h1>
+            <h1 class="text-4xl text-white">buy 1 get 1 free</h1>
+            <p class="mb-5">
+              The best classic dress is on sale at coro
+            </p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end -->
+
+    <!-- 3 card -->
+     <section class="mt-10 grid grid-cols-3">
+      <div
+        class="hero w-[400px] h-64"
+        style="background-image: url(/images/banner/b4.jpg)"
+      >
+        <div class="hero-overlay bg-opacity-5"></div>
+        <div class="hero-content text-neutral-content">
+          <div class="max-w-md  mr-24">
+            <h1 class="mb-5 text-3xl font-bold text-white">crazy deals</h1>
+            <h1 class="text-4xl text-white">buy 1 get 1 free</h1>
+            <p class="mb-5">
+              The best classic dress is on sale at coro
+            </p>
+            
+          </div>
+        </div>
+      </div>
+      <div
+        class="hero w-[400px] h-64"
+        style="background-image: url(/images/banner/b18.jpg)"
+      >
+        <div class="hero-overlay bg-opacity-5"></div>
+        <div class="hero-content text-neutral-content">
+          <div class="max-w-md  mr-24">
+            <h1 class="mb-5 text-3xl font-bold text-white">crazy deals</h1>
+            <h1 class="text-4xl text-white">buy 1 get 1 free</h1>
+            <p class="mb-5">
+              The best classic dress is on sale at coro
+            </p>
+            
+          </div>
+        </div>
+      </div>
+      <div
+        class="hero w-[400px] h-64"
+        style="background-image: url(/images/banner/b19.jpg)"
+      >
+        <div class="hero-overlay bg-opacity-5"></div>
+        <div class="hero-content text-neutral-content">
+          <div class="max-w-md  mr-24">
+            <h1 class="mb-5 text-3xl font-bold text-white">crazy deals</h1>
+            <h1 class="text-4xl text-white">buy 1 get 1 free</h1>
+            <p class="mb-5">
+              The best classic dress is on sale at coro
+            </p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end -->
+
+    <!-- footer -->
+
+    <footer class="footer p-10 bg-base-200 text-base-content mt-8">
+  <nav>
+    <header class="footer-title">Services</header> 
+    <a class="link link-hover">Branding</a>
+    <a class="link link-hover">Design</a>
+    <a class="link link-hover">Marketing</a>
+    <a class="link link-hover">Advertisement</a>
+  </nav> 
+  <nav>
+    <header class="footer-title">Company</header> 
+    <a class="link link-hover">About us</a>
+    <a class="link link-hover">Contact</a>
+    <a class="link link-hover">Jobs</a>
+    <a class="link link-hover">Press kit</a>
+  </nav> 
+  <nav>
+    <header class="footer-title">Legal</header> 
+    <a class="link link-hover">Terms of use</a>
+    <a class="link link-hover">Privacy policy</a>
+    <a class="link link-hover">Cookie policy</a>
+  </nav> 
+  <form>
+    <header class="footer-title">Newsletter</header> 
+    <fieldset class="form-control w-80">
+      <label class="label">
+        <span class="label-text">Enter your email address</span>
+      </label> 
+      <div class="join">
+        <input type="text" placeholder="username@site.com" class="input input-bordered join-item" /> 
+        <button class="btn btn-primary join-item">Subscribe</button>
+      </div>
+    </fieldset>
+  </form>
+</footer>
+  </body>
+</html>
